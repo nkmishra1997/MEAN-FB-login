@@ -2,10 +2,10 @@
 FB login boilerplate using MEAN stack(work in progress)
 
 ## Done
-1.Working Facebook login.
-2.Accepts name, email id , fbid, token
-3.Display above data on profile page using ejs
-4.Save details in MongoDb.
+1. Working Facebook login.
+2. Accepts name, email id , fbid, token
+3. Display above data on profile page using ejs
+4. Save details in MongoDb.
 
 ## To be done
 1.Angular part
