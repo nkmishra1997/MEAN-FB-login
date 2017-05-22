@@ -1,0 +1,1 @@
+var loginfb = angular.module('loginfbapp', []);
