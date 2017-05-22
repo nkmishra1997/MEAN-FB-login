@@ -201,6 +201,8 @@ module.exports = function(passport) {
                 user.facebook.name  = profile.name.givenName + ' ' + profile.name.familyName;
                 user.facebook.email = (profile.emails[0].value || '').toLowerCase();
 
+                console.log(user);
+
                 user.save(function(err) {
                     if (err)
                         return done(err);
